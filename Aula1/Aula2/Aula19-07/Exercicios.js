@@ -1,4 +1,5 @@
-function verificarMaiorIdade(){
+ 
+ export function verificarMaiorIdade(){
 
 
     let pessoa = {
@@ -13,7 +14,12 @@ function verificarMaiorIdade(){
         pessoa.idade = parseInt(prompt("Digite  sua idade: "));
         pessoa.nome = prompt("Digite seu nome: ");
 
-    } while (pessoa.idade < 18) {
+    } while (pessoa.idade < 18);
+    console.log("idade valida");
+    console.log("objeto": pessoa);
+    
+
+    {
         console.log("idade valida: ");
         
     }
