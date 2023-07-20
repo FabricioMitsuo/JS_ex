@@ -1,5 +1,10 @@
  
- export function verificarMaiorIdade(){
+ import function verificarMaiorIdade(){ 
+    
+   
+
+ import (verificarMaiorIdade) from "./Exercicios.js";
+
 
 
     let pessoa = {
